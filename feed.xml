@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>mhtawfiq</title>
-    <link href="https://mhtawfiq.github.io/gh-pages/feed.xml" rel="self" />
-    <link href="https://mhtawfiq.github.io/gh-pages" />
+    <link href="https://mhtawfiq.github.io/feed.xml" rel="self" />
+    <link href="https://mhtawfiq.github.io" />
     <updated>2023-02-18T06:45:07+03:00</updated>
     <author>
         <name>Mohamed H. Tawfiq</name>
     </author>
-    <id>https://mhtawfiq.github.io/gh-pages</id>
+    <id>https://mhtawfiq.github.io</id>
 
     <entry>
         <title>HTML Page</title>
         <author>
             <name>Mohamed H. Tawfiq</name>
         </author>
-        <link href="https://mhtawfiq.github.io/gh-pages/html-page.html"/>
-        <id>https://mhtawfiq.github.io/gh-pages/html-page.html</id>
+        <link href="https://mhtawfiq.github.io/html-page.html"/>
+        <id>https://mhtawfiq.github.io/html-page.html</id>
 
         <updated>2023-02-18T06:45:07+03:00</updated>
             <summary>
@@ -29,18 +29,18 @@
 <p>Hello, Lorem Ipsum this is a test</p>
 <p>jhklhlkjl</p>
 <p>Certified FileMaker Developer with over 10 years experience. Specialized in backend and WAN optimization, reporting, and integration with external data sources, web applications and APIs.</p>
-<figure class="post__image post__image--right"><img loading="lazy"  src="https://mhtawfiq.github.io/gh-pages/media/posts/3/47938.jpeg" alt="" width="505" height="324" sizes="100vw" srcset="https://mhtawfiq.github.io/gh-pages/media/posts/3/responsive/47938-xs.jpeg 300w ,https://mhtawfiq.github.io/gh-pages/media/posts/3/responsive/47938-sm.jpeg 480w ,https://mhtawfiq.github.io/gh-pages/media/posts/3/responsive/47938-md.jpeg 768w ,https://mhtawfiq.github.io/gh-pages/media/posts/3/responsive/47938-lg.jpeg 1024w ,https://mhtawfiq.github.io/gh-pages/media/posts/3/responsive/47938-xl.jpeg 1360w ,https://mhtawfiq.github.io/gh-pages/media/posts/3/responsive/47938-2xl.jpeg 1600w"></figure>
+<figure class="post__image post__image--right"><img loading="lazy"  src="https://mhtawfiq.github.io/media/posts/3/47938.jpeg" alt="" width="505" height="324" sizes="100vw" srcset="https://mhtawfiq.github.io/media/posts/3/responsive/47938-xs.jpeg 300w ,https://mhtawfiq.github.io/media/posts/3/responsive/47938-sm.jpeg 480w ,https://mhtawfiq.github.io/media/posts/3/responsive/47938-md.jpeg 768w ,https://mhtawfiq.github.io/media/posts/3/responsive/47938-lg.jpeg 1024w ,https://mhtawfiq.github.io/media/posts/3/responsive/47938-xl.jpeg 1360w ,https://mhtawfiq.github.io/media/posts/3/responsive/47938-2xl.jpeg 1600w"></figure>
 <p> </p>
 <p>Certified FileMaker Developer. Specialized in backend and performance optimization, reporting, integration with APIs &amp; external data sources and process automation.</p>
 <p> </p>
 <div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="4">
-<figure class="gallery__item"><a href="https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507974.jpeg" data-size="2560x1600"><img loading="lazy" src="https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507974-thumbnail.jpeg" alt="" width="720" height="450"></a></figure>
-<figure class="gallery__item"><a href="https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/erol-ahmed-aiyfr0vbadk-unsplash-1.jpeg" data-size="3000x2000"><img loading="lazy" src="https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/erol-ahmed-aiyfr0vbadk-unsplash-1-thumbnail.jpeg" alt="" width="720" height="480"></a></figure>
-<figure class="gallery__item"><a href="https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/andrew-ridley-jr4zf-rieji-unsplash-1.jpeg" data-size="4488x3366"><img loading="lazy" src="https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/andrew-ridley-jr4zf-rieji-unsplash-1-thumbnail.jpeg" alt="" width="720" height="540"></a></figure>
-<figure class="gallery__item"><a href="https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507978.jpeg" data-size="1200x927"><img loading="lazy" src="https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507978-thumbnail.jpeg" alt="" width="720" height="556"></a></figure>
-<figure class="gallery__item"><a href="https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507970.jpeg" data-size="1768x1768"><img loading="lazy" src="https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507970-thumbnail.jpeg" alt="" width="720" height="720"></a></figure>
-<figure class="gallery__item"><a href="https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507967.jpeg" data-size="1500x1200"><img loading="lazy" src="https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507967-thumbnail.jpeg" alt="" width="720" height="576"></a></figure>
-<figure class="gallery__item"><a href="https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507931.jpeg" data-size="1000x1000"><img loading="lazy" src="https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507931-thumbnail.jpeg" alt="" width="720" height="720"></a></figure>
+<figure class="gallery__item"><a href="https://mhtawfiq.github.io/media/posts/3/gallery/4507974.jpeg" data-size="2560x1600"><img loading="lazy" src="https://mhtawfiq.github.io/media/posts/3/gallery/4507974-thumbnail.jpeg" alt="" width="720" height="450"></a></figure>
+<figure class="gallery__item"><a href="https://mhtawfiq.github.io/media/posts/3/gallery/erol-ahmed-aiyfr0vbadk-unsplash-1.jpeg" data-size="3000x2000"><img loading="lazy" src="https://mhtawfiq.github.io/media/posts/3/gallery/erol-ahmed-aiyfr0vbadk-unsplash-1-thumbnail.jpeg" alt="" width="720" height="480"></a></figure>
+<figure class="gallery__item"><a href="https://mhtawfiq.github.io/media/posts/3/gallery/andrew-ridley-jr4zf-rieji-unsplash-1.jpeg" data-size="4488x3366"><img loading="lazy" src="https://mhtawfiq.github.io/media/posts/3/gallery/andrew-ridley-jr4zf-rieji-unsplash-1-thumbnail.jpeg" alt="" width="720" height="540"></a></figure>
+<figure class="gallery__item"><a href="https://mhtawfiq.github.io/media/posts/3/gallery/4507978.jpeg" data-size="1200x927"><img loading="lazy" src="https://mhtawfiq.github.io/media/posts/3/gallery/4507978-thumbnail.jpeg" alt="" width="720" height="556"></a></figure>
+<figure class="gallery__item"><a href="https://mhtawfiq.github.io/media/posts/3/gallery/4507970.jpeg" data-size="1768x1768"><img loading="lazy" src="https://mhtawfiq.github.io/media/posts/3/gallery/4507970-thumbnail.jpeg" alt="" width="720" height="720"></a></figure>
+<figure class="gallery__item"><a href="https://mhtawfiq.github.io/media/posts/3/gallery/4507967.jpeg" data-size="1500x1200"><img loading="lazy" src="https://mhtawfiq.github.io/media/posts/3/gallery/4507967-thumbnail.jpeg" alt="" width="720" height="576"></a></figure>
+<figure class="gallery__item"><a href="https://mhtawfiq.github.io/media/posts/3/gallery/4507931.jpeg" data-size="1000x1000"><img loading="lazy" src="https://mhtawfiq.github.io/media/posts/3/gallery/4507931-thumbnail.jpeg" alt="" width="720" height="720"></a></figure>
 </div></div>
 <h1>asfasdsadada</h1>
             ]]>
@@ -51,8 +51,8 @@
         <author>
             <name>Mohamed H. Tawfiq</name>
         </author>
-        <link href="https://mhtawfiq.github.io/gh-pages/markdown-page.html"/>
-        <id>https://mhtawfiq.github.io/gh-pages/markdown-page.html</id>
+        <link href="https://mhtawfiq.github.io/markdown-page.html"/>
+        <id>https://mhtawfiq.github.io/markdown-page.html</id>
 
         <updated>2023-02-18T06:39:01+03:00</updated>
             <summary>
@@ -76,8 +76,8 @@ ads
         <author>
             <name>Mohamed H. Tawfiq</name>
         </author>
-        <link href="https://mhtawfiq.github.io/gh-pages/page-block.html"/>
-        <id>https://mhtawfiq.github.io/gh-pages/page-block.html</id>
+        <link href="https://mhtawfiq.github.io/page-block.html"/>
+        <id>https://mhtawfiq.github.io/page-block.html</id>
 
         <updated>2023-02-18T06:38:10+03:00</updated>
             <summary>
@@ -101,25 +101,25 @@ ads
   </p>
 
     <figure class="post__image post__image--wide">
-      <img loading="lazy" src="https://mhtawfiq.github.io/gh-pages/media/posts/1/361622.jpeg" height="982" width="1024" alt=""  sizes="100vw" srcset="https://mhtawfiq.github.io/gh-pages/media/posts/1/responsive/361622-xs.jpeg 300w ,https://mhtawfiq.github.io/gh-pages/media/posts/1/responsive/361622-sm.jpeg 480w ,https://mhtawfiq.github.io/gh-pages/media/posts/1/responsive/361622-md.jpeg 768w ,https://mhtawfiq.github.io/gh-pages/media/posts/1/responsive/361622-lg.jpeg 1024w ,https://mhtawfiq.github.io/gh-pages/media/posts/1/responsive/361622-xl.jpeg 1360w ,https://mhtawfiq.github.io/gh-pages/media/posts/1/responsive/361622-2xl.jpeg 1600w">
+      <img loading="lazy" src="https://mhtawfiq.github.io/media/posts/1/361622.jpeg" height="982" width="1024" alt=""  sizes="100vw" srcset="https://mhtawfiq.github.io/media/posts/1/responsive/361622-xs.jpeg 300w ,https://mhtawfiq.github.io/media/posts/1/responsive/361622-sm.jpeg 480w ,https://mhtawfiq.github.io/media/posts/1/responsive/361622-md.jpeg 768w ,https://mhtawfiq.github.io/media/posts/1/responsive/361622-lg.jpeg 1024w ,https://mhtawfiq.github.io/media/posts/1/responsive/361622-xl.jpeg 1360w ,https://mhtawfiq.github.io/media/posts/1/responsive/361622-2xl.jpeg 1600w">
       <figcaption>Caption</figcaption>
     </figure>
 
   <div  class="gallery-wrapper">
     <div class="gallery" data-columns="4">
       <figure class="gallery__item">
-      <a href="https://mhtawfiq.github.io/gh-pages/media/posts/1/gallery/4507970.jpeg" data-size="1768x1768">
-        <img loading="lazy" src="https://mhtawfiq.github.io/gh-pages/media/posts/1/gallery/4507970-thumbnail.jpeg" height="720" width="720" alt="" >
+      <a href="https://mhtawfiq.github.io/media/posts/1/gallery/4507970.jpeg" data-size="1768x1768">
+        <img loading="lazy" src="https://mhtawfiq.github.io/media/posts/1/gallery/4507970-thumbnail.jpeg" height="720" width="720" alt="" >
       </a>
       <figcaption>Caption</figcaption>
     </figure><figure class="gallery__item">
-      <a href="https://mhtawfiq.github.io/gh-pages/media/posts/1/gallery/4507931.jpeg" data-size="1000x1000">
-        <img loading="lazy" src="https://mhtawfiq.github.io/gh-pages/media/posts/1/gallery/4507931-thumbnail.jpeg" height="720" width="720" alt="" >
+      <a href="https://mhtawfiq.github.io/media/posts/1/gallery/4507931.jpeg" data-size="1000x1000">
+        <img loading="lazy" src="https://mhtawfiq.github.io/media/posts/1/gallery/4507931-thumbnail.jpeg" height="720" width="720" alt="" >
       </a>
       <figcaption>Caption</figcaption>
     </figure><figure class="gallery__item">
-      <a href="https://mhtawfiq.github.io/gh-pages/media/posts/1/gallery/4507967.jpeg" data-size="1500x1200">
-        <img loading="lazy" src="https://mhtawfiq.github.io/gh-pages/media/posts/1/gallery/4507967-thumbnail.jpeg" height="576" width="720" alt="" >
+      <a href="https://mhtawfiq.github.io/media/posts/1/gallery/4507967.jpeg" data-size="1500x1200">
+        <img loading="lazy" src="https://mhtawfiq.github.io/media/posts/1/gallery/4507967-thumbnail.jpeg" height="576" width="720" alt="" >
       </a>
       <figcaption>Caption</figcaption>
     </figure>
