@@ -1,0 +1,55 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "mhtawfiq",
+    "description": "",
+    "home_page_url": "https://mhtawfiq.github.io/gh-pages",
+    "feed_url": "https://mhtawfiq.github.io/gh-pages/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Mohamed H. Tawfiq"
+    },
+    "items": [
+        {
+            "id": "https://mhtawfiq.github.io/gh-pages/html-page.html",
+            "url": "https://mhtawfiq.github.io/gh-pages/html-page.html",
+            "title": "HTML Page",
+            "summary": "Hello, Lorem Ipsum this is a test jhklhlkjl Certified FileMaker Developer with over 10 years experience. Specialized in backend and WAN optimization, reporting, and integration with external data sources, web applications and APIs. Certified FileMaker Developer. Specialized in backend and performance optimization, reporting, integration with&hellip;",
+            "content_html": "<hr>\n<p>Hello, Lorem Ipsum this is a test</p>\n<p>jhklhlkjl</p>\n<p>Certified FileMaker Developer with over 10 years experience. Specialized in backend and WAN optimization, reporting, and integration with external data sources, web applications and APIs.</p>\n<figure class=\"post__image post__image--right\"><img loading=\"lazy\"  src=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/47938.jpeg\" alt=\"\" width=\"505\" height=\"324\" sizes=\"100vw\" srcset=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/responsive/47938-xs.jpeg 300w ,https://mhtawfiq.github.io/gh-pages/media/posts/3/responsive/47938-sm.jpeg 480w ,https://mhtawfiq.github.io/gh-pages/media/posts/3/responsive/47938-md.jpeg 768w ,https://mhtawfiq.github.io/gh-pages/media/posts/3/responsive/47938-lg.jpeg 1024w ,https://mhtawfiq.github.io/gh-pages/media/posts/3/responsive/47938-xl.jpeg 1360w ,https://mhtawfiq.github.io/gh-pages/media/posts/3/responsive/47938-2xl.jpeg 1600w\"></figure>\n<p> </p>\n<p>Certified FileMaker Developer. Specialized in backend and performance optimization, reporting, integration with APIs &amp; external data sources and process automation.</p>\n<p> </p>\n<div class=\"gallery-wrapper\"><div class=\"gallery\"  data-is-empty=\"false\" data-translation=\"Add images\" data-columns=\"4\">\n<figure class=\"gallery__item\"><a href=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507974.jpeg\" data-size=\"2560x1600\"><img loading=\"lazy\" src=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507974-thumbnail.jpeg\" alt=\"\" width=\"720\" height=\"450\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/erol-ahmed-aiyfr0vbadk-unsplash-1.jpeg\" data-size=\"3000x2000\"><img loading=\"lazy\" src=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/erol-ahmed-aiyfr0vbadk-unsplash-1-thumbnail.jpeg\" alt=\"\" width=\"720\" height=\"480\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/andrew-ridley-jr4zf-rieji-unsplash-1.jpeg\" data-size=\"4488x3366\"><img loading=\"lazy\" src=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/andrew-ridley-jr4zf-rieji-unsplash-1-thumbnail.jpeg\" alt=\"\" width=\"720\" height=\"540\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507978.jpeg\" data-size=\"1200x927\"><img loading=\"lazy\" src=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507978-thumbnail.jpeg\" alt=\"\" width=\"720\" height=\"556\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507970.jpeg\" data-size=\"1768x1768\"><img loading=\"lazy\" src=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507970-thumbnail.jpeg\" alt=\"\" width=\"720\" height=\"720\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507967.jpeg\" data-size=\"1500x1200\"><img loading=\"lazy\" src=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507967-thumbnail.jpeg\" alt=\"\" width=\"720\" height=\"576\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507931.jpeg\" data-size=\"1000x1000\"><img loading=\"lazy\" src=\"https://mhtawfiq.github.io/gh-pages/media/posts/3/gallery/4507931-thumbnail.jpeg\" alt=\"\" width=\"720\" height=\"720\"></a></figure>\n</div></div>\n<h1>asfasdsadada</h1>",
+            "author": {
+                "name": "Mohamed H. Tawfiq"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-02-18T06:44:31+03:00",
+            "date_modified": "2023-02-18T06:45:07+03:00"
+        },
+        {
+            "id": "https://mhtawfiq.github.io/gh-pages/markdown-page.html",
+            "url": "https://mhtawfiq.github.io/gh-pages/markdown-page.html",
+            "title": "Markdown Page",
+            "summary": "Hello world, this is markdown alskdjalskdjlakda d ads asdasdasd",
+            "content_html": "<p>Hello world, this is markdown</p>\n<p>alskdjalskdjlakda\nd\nads\n<strong>asdasdasd</strong></p>\n",
+            "author": {
+                "name": "Mohamed H. Tawfiq"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-02-18T06:39:01+03:00",
+            "date_modified": "2023-02-18T06:39:01+03:00"
+        },
+        {
+            "id": "https://mhtawfiq.github.io/gh-pages/page-block.html",
+            "url": "https://mhtawfiq.github.io/gh-pages/page-block.html",
+            "title": "Page Block",
+            "summary": "FileMaker Server Install This is a normal paragraph Another paragraph",
+            "content_html": "\n    <h2 id=\"filemaker-server-install\">\n      FileMaker Server Install\n    </h2>\n\n  <p>\n    This is a normal paragraph\n  </p>\n\n  <p>\n    Another paragraph\n  </p>\n\n    <figure class=\"post__image post__image--wide\">\n      <img loading=\"lazy\" src=\"https://mhtawfiq.github.io/gh-pages/media/posts/1/361622.jpeg\" height=\"982\" width=\"1024\" alt=\"\"  sizes=\"100vw\" srcset=\"https://mhtawfiq.github.io/gh-pages/media/posts/1/responsive/361622-xs.jpeg 300w ,https://mhtawfiq.github.io/gh-pages/media/posts/1/responsive/361622-sm.jpeg 480w ,https://mhtawfiq.github.io/gh-pages/media/posts/1/responsive/361622-md.jpeg 768w ,https://mhtawfiq.github.io/gh-pages/media/posts/1/responsive/361622-lg.jpeg 1024w ,https://mhtawfiq.github.io/gh-pages/media/posts/1/responsive/361622-xl.jpeg 1360w ,https://mhtawfiq.github.io/gh-pages/media/posts/1/responsive/361622-2xl.jpeg 1600w\">\n      <figcaption>Caption</figcaption>\n    </figure>\n\n  <div  class=\"gallery-wrapper\">\n    <div class=\"gallery\" data-columns=\"4\">\n      <figure class=\"gallery__item\">\n      <a href=\"https://mhtawfiq.github.io/gh-pages/media/posts/1/gallery/4507970.jpeg\" data-size=\"1768x1768\">\n        <img loading=\"lazy\" src=\"https://mhtawfiq.github.io/gh-pages/media/posts/1/gallery/4507970-thumbnail.jpeg\" height=\"720\" width=\"720\" alt=\"\" >\n      </a>\n      <figcaption>Caption</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://mhtawfiq.github.io/gh-pages/media/posts/1/gallery/4507931.jpeg\" data-size=\"1000x1000\">\n        <img loading=\"lazy\" src=\"https://mhtawfiq.github.io/gh-pages/media/posts/1/gallery/4507931-thumbnail.jpeg\" height=\"720\" width=\"720\" alt=\"\" >\n      </a>\n      <figcaption>Caption</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://mhtawfiq.github.io/gh-pages/media/posts/1/gallery/4507967.jpeg\" data-size=\"1500x1200\">\n        <img loading=\"lazy\" src=\"https://mhtawfiq.github.io/gh-pages/media/posts/1/gallery/4507967-thumbnail.jpeg\" height=\"576\" width=\"720\" alt=\"\" >\n      </a>\n      <figcaption>Caption</figcaption>\n    </figure>\n    </div>\n  </div>\n<hr class=\"separator separator--dots\" />\n<pre class=\"line-numbers  language-html\"><code></code></pre>\n\n  <div class=\"post__toc\">\n    \n    <ul>\n      <li><a href=\"#filemaker-server-install\">FileMaker Server Install</a></li>\n    </ul>\n  </div>\n  ",
+            "author": {
+                "name": "Mohamed H. Tawfiq"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-02-18T06:38:10+03:00",
+            "date_modified": "2023-02-18T06:38:10+03:00"
+        }
+    ]
+}
