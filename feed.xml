@@ -3,7 +3,7 @@
     <title>Mohamed H. Tawfiq</title>
     <link href="https://mhtawfiq.github.io/feed.xml" rel="self" />
     <link href="https://mhtawfiq.github.io" />
-    <updated>2023-02-21T14:55:47+03:00</updated>
+    <updated>2023-02-22T01:57:02+03:00</updated>
     <author>
         <name>Mohamed H. Tawfiq</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://mhtawfiq.github.io/media/posts/4/Medium1x.png" medium="image" />
             <category term="Claris FileMaker"/>
 
-        <updated>2023-02-21T14:55:47+03:00</updated>
+        <updated>2023-02-22T01:57:02+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://mhtawfiq.github.io/media/posts/4/Medium1x.png" alt="" />
@@ -89,7 +89,7 @@
 <pre class="line-numbers  language-bash"><code>ssh-keygen -t ed25519 -C "username@domain.com"</code></pre>
 
   <p>
-    You will prompted to enter a path and filename for the key or accept the default, you can press enter when prompted for a password to skip it, two files will be created at the following path by default:
+    You will be prompted to enter a path and filename for the key or accept the default, you can press enter when prompted for a password to skip it, two files will be created at the following path by default:
   </p>
 
   <ul>
@@ -124,7 +124,7 @@ ssh-ed25519 AAAC3NzaC11ZDI1NTE5AAAAIAIeaLEXiTPi5X7+MIT1peMIChRYpsHy 2IOUs+186 us
   </p>
 
   <p class="msg msg--highlight">
-    During deployment you will be asked to paste your ssh public key created earlier.
+    During deployment, you will be asked to paste your ssh public key created earlier.
   </p>
 
   <p class="msg msg--info">
@@ -265,7 +265,7 @@ service fmshelper start
 # Restart Scripting Engine
 fmsadmin restart fmse
 
-# Restart Web Publishig Engine 
+# Restart Web Publishing Engine 
 fmsadmin restart wpe
 
 # Restart Data API
