@@ -3,7 +3,7 @@
     <title>Mohamed H. Tawfiq</title>
     <link href="https://mhtawfiq.github.io/feed.xml" rel="self" />
     <link href="https://mhtawfiq.github.io" />
-    <updated>2023-11-27T16:35:33+02:00</updated>
+    <updated>2023-11-27T17:02:03+02:00</updated>
     <author>
         <name>Mohamed H. Tawfiq</name>
     </author>
@@ -19,17 +19,21 @@
         <media:content url="https://mhtawfiq.github.io/media/posts/4/Medium1x.png" medium="image" />
             <category term="Claris FileMaker"/>
 
-        <updated>2023-11-27T16:35:33+02:00</updated>
+        <updated>2023-11-27T17:02:03+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://mhtawfiq.github.io/media/posts/4/Medium1x.png" alt="" />
-                    While I am used to deploying Claris FileMaker Server on Windows Server, I recently needed to do a deployment on&hellip;
+                    Updated for Claris FileMaker Server 2023.3 &amp; Ubuntu 22 While I am used to deploying Claris FileMaker Server on Windows&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://mhtawfiq.github.io/media/posts/4/Medium1x.png" class="type:primaryImage" alt="" /></p>
                 
+  <p class="msg msg--highlight">
+    Updated for Claris FileMaker Server 2023.3 &amp; Ubuntu 22
+  </p>
+
   <p>
     While I am used to deploying Claris FileMaker Server on Windows Server, I recently needed to do a deployment on linux for the first time. I created this guide as practical reference as I went about the process. I hope you find it useful.
   </p>
@@ -39,7 +43,7 @@
     </h4>
 
   <p>
-    As of FileMaker Server 19.6.3 deployment on linux is supported on Ubuntu 20.xx LTS (Long Term Support) Server.
+    As of FileMaker Server 20.3.x.x deployment on linux is supported on Ubuntu 22.xx LTS (Long Term Support) Server.
   </p>
 
   <p class="msg msg--info align-center">
@@ -116,7 +120,7 @@ ssh-ed25519 AAAC3NzaC11ZDI1NTE5AAAAIAIeaLEXiTPi5X7+MIT1peMIChRYpsHy 2IOUs+186 us
   </p>
 
   <ul>
-    <li><a href="https://support.claris.com/s/article/Claris-FileMaker-19-4-19-6-Technical-Specifications?language=en_US" target="_blank">Claris FileMaker 19.4 - 19.6 Technical Specifications</a><br></li><li><a href="https://support.claris.com/s/article/General-hardware-considerations-for-FileMaker-Server-1503692984025?language=en_US" target="_blank">General hardware considerations for FileMaker Server</a><br></li>
+    <li><a href="https://support.claris.com/s/answerview?anum=000036635" target="_blank">Claris FileMaker 2023 Technical Specifications</a><br></li><li><a href="https://support.claris.com/s/article/General-hardware-considerations-for-FileMaker-Server-1503692984025?language=en_US" target="_blank" class="" data-link-popup-id="0621b8ab-6485-439d-89b6-99a10a205e2f">General hardware considerations for FileMaker Server</a><br></li>
   </ul>
 
   <p>
