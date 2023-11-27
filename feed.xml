@@ -3,7 +3,7 @@
     <title>Mohamed H. Tawfiq</title>
     <link href="https://mhtawfiq.github.io/feed.xml" rel="self" />
     <link href="https://mhtawfiq.github.io" />
-    <updated>2023-02-22T01:57:02+03:00</updated>
+    <updated>2023-11-27T16:35:33+02:00</updated>
     <author>
         <name>Mohamed H. Tawfiq</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://mhtawfiq.github.io/media/posts/4/Medium1x.png" medium="image" />
             <category term="Claris FileMaker"/>
 
-        <updated>2023-02-22T01:57:02+03:00</updated>
+        <updated>2023-11-27T16:35:33+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://mhtawfiq.github.io/media/posts/4/Medium1x.png" alt="" />
@@ -165,6 +165,7 @@ lsb_release -a
 # Install needed packages
 apt install wget
 apt install unzip
+apt install at
 
 # Install FileMaker Server
 cd ~/
@@ -172,14 +173,14 @@ mkdir fminstaller
 cd fminstaller
 
 # Download and unzip
-wget https://downloads.claris.com/esd/fms_19.6.3.302_Ubuntu20.zip
-unzip https://downloads.claris.com/esd/fms_19.6.3.302_Ubuntu20.zip
+wget https://downloads.claris.com/esd/fms_20.3.1.31_Ubuntu22_amd64.zip
+unzip fms_20.3.1.31_Ubuntu22_amd64.zip
 
 # Identify installation filename
 ls filemaker*.deb
 
 # Start installation
-sudo apt install ./filemaker-server-19.6.3.302-amd64.deb
+sudo apt install ./fms_20.3.1.31_Ubuntu22_amd64.deb
 
 # Follow prompts during installation for license, type and admin credentials
 
@@ -341,6 +342,24 @@ sudo ufw enable
 
 # Disable Firewall
 sudo ufw disable</code></pre>
+
+    <h4 id="updating-filemaker-server">
+      Updating FileMaker Server
+    </h4>
+
+  <p>
+    Insure you have a proper backup and stop then:&nbsp;
+  </p>
+<pre class="line-numbers  language-bash"><code># Stop FileMaker Server service
+service fmshelper stop
+
+# Update Ubuntu, run this multiple times until there are no more updates
+apt update && apt upgrade
+</code></pre>
+
+  <p>
+    Then repeat the <a href="#installing-filemaker-server">installation</a> process again, the installer will update necessary dependencies and update FileMaker Server to the new version.
+  </p>
             ]]>
         </content>
     </entry>
