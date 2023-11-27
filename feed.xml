@@ -3,7 +3,7 @@
     <title>Mohamed H. Tawfiq</title>
     <link href="https://mhtawfiq.github.io/feed.xml" rel="self" />
     <link href="https://mhtawfiq.github.io" />
-    <updated>2023-11-27T17:02:03+02:00</updated>
+    <updated>2023-11-27T17:38:31+02:00</updated>
     <author>
         <name>Mohamed H. Tawfiq</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://mhtawfiq.github.io/media/posts/4/Medium1x.png" medium="image" />
             <category term="Claris FileMaker"/>
 
-        <updated>2023-11-27T17:02:03+02:00</updated>
+        <updated>2023-11-27T17:38:31+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://mhtawfiq.github.io/media/posts/4/Medium1x.png" alt="" />
@@ -43,7 +43,7 @@
     </h4>
 
   <p>
-    As of FileMaker Server 20.3.x.x deployment on linux is supported on Ubuntu 22.xx LTS (Long Term Support) Server.
+    As of FileMaker Server 2023.3.x deployment on linux is supported on Ubuntu 22.xx LTS (Long Term Support) Server.
   </p>
 
   <p class="msg msg--info align-center">
