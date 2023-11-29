@@ -3,25 +3,25 @@
     <title>Mohamed H. Tawfiq</title>
     <link href="https://mhtawfiq.github.io/feed.xml" rel="self" />
     <link href="https://mhtawfiq.github.io" />
-    <updated>2023-11-29T21:27:12+02:00</updated>
+    <updated>2023-11-29T22:24:24+02:00</updated>
     <author>
         <name>Mohamed H. Tawfiq</name>
     </author>
     <id>https://mhtawfiq.github.io</id>
 
     <entry>
-        <title>FileMaker Server Off-Site Backups with rclone</title>
+        <title>FileMaker Server Off-Site Backup &amp; Retention Policy with rclone</title>
         <author>
             <name>Mohamed H. Tawfiq</name>
         </author>
-        <link href="https://mhtawfiq.github.io/filemaker-server-off-site-backups-with-rclone/"/>
-        <id>https://mhtawfiq.github.io/filemaker-server-off-site-backups-with-rclone/</id>
+        <link href="https://mhtawfiq.github.io/filemaker-server-off-site-backup-and-retention-policy-with-rclone/"/>
+        <id>https://mhtawfiq.github.io/filemaker-server-off-site-backup-and-retention-policy-with-rclone/</id>
         <media:content url="https://mhtawfiq.github.io/media/posts/7/filemakerserver_rclone.png" medium="image" />
             <category term="rclone"/>
             <category term="github"/>
             <category term="Claris FileMaker"/>
 
-        <updated>2023-11-29T21:27:12+02:00</updated>
+        <updated>2023-11-29T22:24:24+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://mhtawfiq.github.io/media/posts/7/filemakerserver_rclone.png" alt="" />
@@ -32,8 +32,8 @@
             <![CDATA[
                     <p><img src="https://mhtawfiq.github.io/media/posts/7/filemakerserver_rclone.png" class="type:primaryImage" alt="" /></p>
                 <p>Off-site backups are important in case there are issues with the main server where local backups are stored making them unrecoverable.</p>
-<p>It allows you to restore the server and also store long term copies for archival or legal reasons while leveraging cloud storage backends scalability and multi-geographical zone availability. </p>
-<p>This guide will go through how to setup and use rclone with Claris FileMaker Server on Ubuntu Linux to automate creation and maintenance of off-site backups and data retention plan using Amazon S3 as an affordable, scalable and highly available storage backend.</p>
+<p>It allows you to restore the server and also store long term backups for archival or legal reasons while leveraging cloud storage backends scalability and multi-geographical zone availability. </p>
+<p>This guide will go through how to setup and use rclone with Claris FileMaker Server on Ubuntu Linux to automate the creation and maintenance of off-site backups and maintaining a backup retention policy using Amazon S3 as an affordable, scalable and highly available storage backend.</p>
 <h4>What is rclone?</h4>
 <p>rclone is an open source self contained command line tool to manage cloud storage. It can sync, copy and transfer data to many storage backends including Amazon S3 and others.</p>
 <p class="msg msg--info"><a href="https://rclone.org/overview/">rclone Overview &amp; supported storage backends</a></p>
@@ -48,14 +48,12 @@
 <ul>
 <li>Setup an AWS account if you don't already have one and login to AWS Console as an Administrator</li>
 <li>From <a href="https://aws.amazon.com/s3" target="_blank" rel="noopener noreferrer">AWS S3 Console</a>, create a new S3 bucket, besides selecting the AWS Region closest to your FileMaker Server you can leave all other settings as default</li>
-</ul>
-<p>In some cases, it might be worth considering creating a dedicated AWS IAM user with access to only the backup S3 bucket. Below is an article that further explains the process to use policies to limit access to s3 buckets:</p>
-<p class="msg msg--info"><a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-walkthroughs-managing-access-example1.html" target="_blank" rel="noopener noreferrer">https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-walkthroughs-managing-access-example1.html</a></p>
-<ul>
 <li>From AWS IAM Console, open your user page <em>(the same user used to create the s3 bucket)</em> goto "Security credentials" tab then "Access keys" section, click "Create access key"</li>
 <li>For "Use case" select "Other", add a description and create the access key</li>
-<li>You will only be shown once the "Access key" &amp; "Secret", make sure you save them in a safe place</li>
+<li>You will only be shown the "Access key" &amp; "Secret" once, make sure you save them in a safe place</li>
 </ul>
+<p>In some cases, it might be worth considering creating a dedicated AWS IAM user with access to only the backup S3 bucket. Below is an article that further explains the process of how to use policies to limit access to s3 buckets:</p>
+<p class="msg msg--info"><a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-walkthroughs-managing-access-example1.html" target="_blank" rel="noopener noreferrer">https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-walkthroughs-managing-access-example1.html</a></p>
 <h4>Configure rclone Remote</h4>
 <p class="p1">On FileMaker Server via SSH run:</p>
 <pre class="language-bash"><code>rclone config
@@ -73,21 +71,21 @@
 # server_side_encryption: leave blank (encryption is already provided by s3)
 # storage_class: 1 </code></pre>
 <p class="msg msg--info">Reference: <a href="https://rclone.org/s3/" target="_blank" rel="noopener noreferrer">https://rclone.org/s3/</a></p>
-<h4>Backups Retention Policy</h4>
+<h4>Backup Retention Policy</h4>
 <p>How long you need to keep backups for will depend on your organization's business and legal needs. In this guide we will use the following retention policy:</p>
 <ul>
 <li>Keep daily backups for 90 days (90 backups)</li>
 <li>Keep weekly backups for 6 months (24 backups)</li>
 <li>Keep Monthly backups for 3 years (36 backups)</li>
 </ul>
-<p>You can set these parameters along with which day to use for weekly and monthly backups in rclone backup script further below in this article.</p>
+<p>You can set these parameters along with which day to use for weekly and monthly backups in the rclone backup script further below in this article.</p>
 <h4>FileMaker Server Backup Configuration</h4>
 <p>This guide assumes that the default FileMaker Server Auto-Backup schedule is enabled and running as the rclone script uses the latest daily backup generated.</p>
 <p>The idea here is that FileMaker Server handles the actual backup creation to make it's done properly then the rclone script takes over after that to create off-site copies.</p>
 <h4>Off-Site rclone Backup Script</h4>
 <p>The script is at my GitHub repo:</p>
 <p class="msg msg--info"><a href="https://github.com/mhtawfiq/filemaker-server-rclone" target="_blank" rel="noopener noreferrer">https://github.com/mhtawfiq/filemaker-server-rclone</a></p>
-<p>Follow the instructions at the repo to download and setup the script and edit the variables inside the script to set rclone remote name, S3 bucket name, retention policy, weekly backup day and monthly backup day:</p>
+<p>Follow the instructions at the repo to download and set it up and edit the variables inside the script to set rclone remote name, S3 bucket name, retention policy, weekly backup day and monthly backup day:</p>
 <pre class="language-bash"><code># FileMaker Server Backups Folder
 fmsbackupsf="/opt/FileMaker/FileMaker Server/Data/Backups"
 
@@ -109,7 +107,7 @@ dweekly=1
 # Day of the Month for Monthly Backups
 dmonthly=1</code></pre>
 <h4>Schedule rclone Script to Run Automatically</h4>
-<p>Make sure you allow time for FileMaker Server default Auto-Backup to have finished creating the daily backup before running the rclone script.</p>
+<p>Make sure you allow enough time for FileMaker Server default Auto-Backup to have finished creating the daily backup before running the rclone script.</p>
 <p>On FileMaker Server via SSH, using crontab to setup the schedule:</p>
 <pre class="language-bash"><code># Logged in as root, select nano to edit crontab
 crontab -e
@@ -123,7 +121,7 @@ crontab -l</code></pre>
 <p>In the example above, fms-rclone.sh will run at 04:00 AM daily, you can adjust this as needed using crontab syntax.</p>
 <p class="msg msg--info">Crontab syntax: <a href="https://crontab.guru/" target="_blank" rel="noopener noreferrer">https://crontab.guru/</a></p>
 <h4>Conclusion</h4>
-<p>The script should now run on a daily basis copying the latest FileMaker Server Auto-Backup to AWS S3 and maintain the backups data retention policy configured. </p>
+<p>The script should now run on a daily basis copying the latest FileMaker Server Auto-Backup to AWS S3 and maintaining the backup data retention policy configured. </p>
             ]]>
         </content>
     </entry>
