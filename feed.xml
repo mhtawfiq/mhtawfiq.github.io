@@ -3,7 +3,7 @@
     <title>Mohamed H. Tawfiq</title>
     <link href="https://mhtawfiq.github.io/feed.xml" rel="self" />
     <link href="https://mhtawfiq.github.io" />
-    <updated>2023-11-29T22:24:24+02:00</updated>
+    <updated>2023-11-30T18:15:34+02:00</updated>
     <author>
         <name>Mohamed H. Tawfiq</name>
     </author>
@@ -16,21 +16,21 @@
         </author>
         <link href="https://mhtawfiq.github.io/filemaker-server-off-site-backup-and-retention-policy-with-rclone/"/>
         <id>https://mhtawfiq.github.io/filemaker-server-off-site-backup-and-retention-policy-with-rclone/</id>
-        <media:content url="https://mhtawfiq.github.io/media/posts/7/filemakerserver_rclone.png" medium="image" />
+        <media:content url="https://mhtawfiq.github.io/media/posts/7/Medium1x.png" medium="image" />
             <category term="rclone"/>
             <category term="github"/>
             <category term="Claris FileMaker"/>
 
-        <updated>2023-11-29T22:24:24+02:00</updated>
+        <updated>2023-11-30T18:15:34+02:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://mhtawfiq.github.io/media/posts/7/filemakerserver_rclone.png" alt="" />
+                        <img src="https://mhtawfiq.github.io/media/posts/7/Medium1x.png" alt="" />
                     Off-site backups are important in case there are issues with the main server where local backups are stored making them&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://mhtawfiq.github.io/media/posts/7/filemakerserver_rclone.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://mhtawfiq.github.io/media/posts/7/Medium1x.png" class="type:primaryImage" alt="" /></p>
                 <p>Off-site backups are important in case there are issues with the main server where local backups are stored making them unrecoverable.</p>
 <p>It allows you to restore the server and also store long term backups for archival or legal reasons while leveraging cloud storage backends scalability and multi-geographical zone availability. </p>
 <p>This guide will go through how to setup and use rclone with Claris FileMaker Server on Ubuntu Linux to automate the creation and maintenance of off-site backups and maintaining a backup retention policy using Amazon S3 as an affordable, scalable and highly available storage backend.</p>
